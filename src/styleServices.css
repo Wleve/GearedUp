@@ -1,0 +1,58 @@
+.headerservice {
+    padding: 20px;
+    font-family: "Poppins", serif;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px ;
+    background-color: #486e91;
+    color: #000;
+    border-radius: 8px;
+    width: fit-content;
+    min-width: 300px;
+}
+
+.servicebg{
+
+    width: 100%;
+    height: auto;
+    background-color: #cbb9a8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 5rem;
+}
+
+.service-image-container {
+  position: relative;
+  display: inline-block;
+  margin: 16px;
+}
+
+.service-image-container img {
+  width: auto;
+  height: 25rem;
+  border-radius: 8px;
+  display: block;
+}
+
+.service-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(72, 110, 145, 0.85);
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  opacity: 0;
+  border-radius: 0 0 8px 8px;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.service-image-container:hover .service-text {
+  opacity: 1;
+  pointer-events: auto;
+}

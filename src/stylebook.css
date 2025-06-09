@@ -1,0 +1,74 @@
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header{
+background-color: #486e91;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bgbook{
+background-color: #CBB9A8 ;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bikeimage {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.booktext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px;
+}
+.date{
+    font-size: 18px;
+    color: #555;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.confirmbutton{
+    background-color: #1f271b;
+    color: rgb(219, 219, 219);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+.confirmbutton:hover {
+    background-color: #0b4f6c;
+    transition: ease-in-out 0.3s;
+}
+.bookcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
